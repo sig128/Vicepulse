@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-10-09T21:16:52.167Z",
+  "gtadb_landmarks": {
+    "origin": "bundled research snapshot (research/community-data/gtadb-landmarks-original.json)",
+    "sha256": "fca662aef1927c79b406919cc41a0d6b490fc27a33d4863cf30d1dce34cb7e9d",
+    "bytes": 618041,
+    "rawCount": 3100,
+    "upstream": {
+      "repo": "https://github.com/rolux/gtadb.org",
+      "path": "map/data/6/landmarks.json",
+      "commit": "76d44848850222ab5051bc8f561316989b5c3570",
+      "commitEvidence": "Snapshot SHA-256 equals the file at this commit (checked 2026-10-09). The snapshot's original acquisition commit was not recorded."
+    },
+    "license": "CC BY 4.0 (research/community-data/LICENSE-DATA.txt)"
+  },
+  "stateofleonida": {
+    "sol_screenshots": {
+      "label": "Screenshots",
+      "origin": "source_cache",
+      "sha256": "7193c195125c2923ef1d071e628cff181558b4ac8227f59e805a23d7a10b2a78",
+      "rawCount": 47,
+      "invalidCoordinateIds": [],
+      "duplicateIds": []
+    },
+    "sol_leaks": {
+      "label": "Leaks",
+      "origin": "source_cache",
+      "sha256": "85bcc670a2328493ce32e5ee003bf0079a2a44fa48919bd5066d884f0e8535b4",
+      "rawCount": 42,
+      "invalidCoordinateIds": [],
+      "duplicateIds": []
+    },
+    "sol_trailer1": {
+      "label": "Trailer 1",
+      "origin": "source_cache",
+      "sha256": "5d8b787a103f26676a1aeb7a1514e27ba1bdd4bfae2d272ff1ef4645cdef18df",
+      "rawCount": 30,
+      "invalidCoordinateIds": [],
+      "duplicateIds": []
+    },
+    "sol_trailer2": {
+      "label": "Trailer 2",
+      "origin": "source_cache",
+      "sha256": "3019521c0689198c81758baff6c742d6384502f4e42c7c118986ad4020f500f6",
+      "rawCount": 26,
+      "invalidCoordinateIds": [],
+      "duplicateIds": []
+    },
+    "sol_trailer3": {
+      "label": "Trailer 3",
+      "origin": "source_cache",
+      "sha256": "2c84a326fbc8595b9c3e9610f42e786e2e71085099cfe36d761bd22a0b6b9613",
+      "rawCount": 37,
+      "invalidCoordinateIds": [],
+      "duplicateIds": []
+    },
+    "sol_el_screenshots": {
+      "label": "Extended Look screenshots (el_screenshots.json)",
+      "origin": "source_cache",
+      "sha256": "29d959193b8eda983e249931513411289f8d3290df03f5a95a8abad9e379d945",
+      "rawCount": 5,
+      "invalidCoordinateIds": [],
+      "duplicateIds": []
+    }
+  },
+  "stateofleonidaFetch": null
+}

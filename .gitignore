@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.local
+# Local caches: third-party content without established redistribution rights,
+# and on-demand GitHub tiles/photos. Regenerate with `pnpm data:prepare`.
+data/cache/
+apps/server/var/
+test-results/
+playwright-report/

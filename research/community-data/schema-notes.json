@@ -1,0 +1,7 @@
+{
+  "mapping_source": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/index.js",
+  "method": "Fields mapped from upstream parseLandmark(). Original labels, including uncertainty markers, retained. No upstream tag is promoted to Rockstar confirmation.",
+  "attribution": "GTA VI Landmarks Data (CC BY 4.0) — https://map.gtadb.org; gtadb.org and all contributors.",
+  "changes": "Positional arrays converted to named fields; explicit community evidence status added.",
+  "coordinate_note": "game_coordinates_xy and real_world_coordinates_lat_lon are separate spaces. No GeoJSON projection conversion performed."
+}

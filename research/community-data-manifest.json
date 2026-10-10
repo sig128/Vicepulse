@@ -1,0 +1,21 @@
+{
+  "downloaded_on": "2026-10-09",
+  "source_id": "gtadb_landmarks",
+  "record_count": 3100,
+  "status": "community_reconstruction",
+  "local_file": "community-data/gtadb-landmarks-original.json",
+  "sha256": "fca662aef1927c79b406919cc41a0d6b490fc27a33d4863cf30d1dce34cb7e9d",
+  "attribution": "GTA VI Landmarks Data (CC BY 4.0) — https://map.gtadb.org; gtadb.org and all contributors.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "changes": "None; the original downloaded JSON bytes are preserved.",
+  "limitations": [
+    "Record count is not a count of Rockstar-confirmed POIs.",
+    "Locations, names, real-world matches and tags can be conjectural.",
+    "Some source material may derive from development leaks.",
+    "The dataset uses positional arrays; read upstream code before normalizing.",
+    "Game coordinates are not real-world latitude/longitude.",
+    "No exhaustive record-by-record audit was performed.",
+    "Do not infer access to game runtime or routing accuracy."
+  ],
+  "upstream_requested_update_method": "Git pull or sparse checkout from the source repository, rather than fetching live data/media from gtadb.org."
+}

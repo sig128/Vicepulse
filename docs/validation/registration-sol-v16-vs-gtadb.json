@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-10-09T21:03:27.964Z",
+  "compared": {
+    "a": {
+      "id": "stateofleonida:YANIS:v16.0",
+      "zoom": 2,
+      "unitsPerPixel": 16,
+      "origin": [
+        -17000,
+        11000
+      ],
+      "bounds": [
+        [
+          -9000,
+          -17000
+        ],
+        [
+          11000,
+          4000
+        ]
+      ],
+      "originalSize": {
+        "width": 21000,
+        "height": 20000
+      },
+      "tiles": 30
+    },
+    "b": {
+      "id": "gtadb:yanis,16:z1-overview",
+      "unitsPerPixel": 16,
+      "origin": [
+        -12288,
+        12288
+      ],
+      "sha256": "588f5d7cccb6ec06c5237e54fe9847584659137f5c6035600be932c7b52f2761"
+    }
+  },
+  "predictedOverviewOffsetInSolFrame": [
+    294.5,
+    -80.5
+  ],
+  "meanAbsLumaDiffAtPredictedOffset": 12.32675256065224,
+  "bestResidualOffsetPx": {
+    "dx": 0,
+    "dy": 0,
+    "meanAbsLumaDiff": 12.32675256065224
+  },
+  "bestResidualOffsetGameUnits": {
+    "dx": 0,
+    "dy": 0
+  },
+  "top5": [
+    {
+      "dx": 0,
+      "dy": 0,
+      "meanAbsLumaDiff": 12.32675256065224
+    },
+    {
+      "dx": 1,
+      "dy": 0,
+      "meanAbsLumaDiff": 13.342821563347753
+    },
+    {
+      "dx": 0,
+      "dy": 1,
+      "meanAbsLumaDiff": 13.613009757417663
+    },
+    {
+      "dx": 0,
+      "dy": -1,
+      "meanAbsLumaDiff": 13.640769272241993
+    },
+    {
+      "dx": -1,
+      "dy": 0,
+      "meanAbsLumaDiff": 13.863003450139852
+    }
+  ],
+  "interpretation": "Predicted transforms align at 1 px (16 game units) resolution; remaining difference is artwork/revision content, see diff image."
+}

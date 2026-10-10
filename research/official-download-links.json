@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-10-09",
+  "source_url": "https://www.rockstargames.com/VI/media",
+  "note": "URLs and counts extracted from the official media page. Archives not downloaded or checked internally. Official assets retain their own rights. Counts can change.",
+  "downloads": [
+    {
+      "label": "Screenshots",
+      "listed_count": 99,
+      "url": "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Screenshots.zip"
+    },
+    {
+      "label": "Artwork and wallpapers",
+      "listed_count": 23,
+      "url": "https://media-rockstargames-com.akamaized.net/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip"
+    },
+    {
+      "label": "Clips",
+      "listed_count": 9,
+      "url": "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Videos.zip"
+    },
+    {
+      "label": "Ultimate Edition benefit screenshots",
+      "listed_count": 51,
+      "url": "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Ultimate_Edition_Benefits.zip"
+    },
+    {
+      "label": "Vintage Vice City pack screenshots",
+      "listed_count": 12,
+      "url": "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Vintage_Vice_City_Pack.zip"
+    }
+  ]
+}

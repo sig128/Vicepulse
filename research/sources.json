@@ -1,0 +1,250 @@
+[
+  {
+    "id": "official_home",
+    "title": "Rockstar GTA VI",
+    "url": "https://www.rockstargames.com/VI",
+    "type": "official",
+    "note": "Release, platforms, premise and current announcements.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "official_people",
+    "title": "Only in Leonida",
+    "url": "https://www.rockstargames.com/VI/only-in-leonida",
+    "type": "official",
+    "note": "Character biographies and six featured destinations.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "official_media",
+    "title": "Rockstar media hub",
+    "url": "https://www.rockstargames.com/VI/media",
+    "type": "official",
+    "note": "Download categories and official assets.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "official_screenshots",
+    "title": "Screenshot catalog",
+    "url": "https://www.rockstargames.com/VI/media/screenshots",
+    "type": "official",
+    "note": "Named screenshots, businesses, vehicles and equipment.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "trailer_1",
+    "title": "Trailer 1",
+    "url": "https://www.rockstargames.com/VI/trailer-1",
+    "type": "official",
+    "note": "Published 2023-12-04.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "trailer_2",
+    "title": "Trailer 2",
+    "url": "https://www.rockstargames.com/VI/trailer-2",
+    "type": "official",
+    "note": "Published 2025-05-06.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "extended_look",
+    "title": "An Extended Look",
+    "url": "https://www.rockstargames.com/VI/an-extended-look",
+    "type": "official",
+    "note": "Published 2026-08-27; in-game PS5 footage.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "extended_youtube",
+    "title": "Extended Look on YouTube",
+    "url": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+    "type": "official",
+    "note": "Official Rockstar video.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "preorders",
+    "title": "Pre-order announcement",
+    "url": "https://www.rockstargames.com/newswire/article/5171972o3ak5oa/pre-order-grand-theft-auto-vi-on-june-25",
+    "type": "official",
+    "note": "Preload and single-player launch details.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "take_two_preorders",
+    "title": "Take-Two preorder release",
+    "url": "https://ir.take2games.com/node/32311/pdf",
+    "type": "official",
+    "note": "US Standard and Ultimate pricing.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "music",
+    "title": "Official radio and album",
+    "url": "https://www.rockstargames.com/VI/music",
+    "type": "official",
+    "note": "Six station previews; original album.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "collector_map",
+    "title": "Collector box with map poster",
+    "url": "https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection",
+    "type": "official",
+    "note": "Map advertised on reverse; product preview does not expose readable road map.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gtadb",
+    "title": "GTADB overview",
+    "url": "https://gtadb.org",
+    "type": "community",
+    "note": "Mapping, tools and geographic resources.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gtadb_map",
+    "title": "GTADB landmark map",
+    "url": "https://map.gtadb.org",
+    "type": "community",
+    "note": "Estimated in-game locations and real-world matches.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gtadb_repo",
+    "title": "GTADB source repository",
+    "url": "https://github.com/rolux/gtadb.org",
+    "type": "community_open_data",
+    "note": "MIT code; CC BY 4.0 data. Pull GitHub data rather than hotlink live service.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gtadb_landmarks",
+    "title": "GTADB GTA VI landmark JSON",
+    "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/data/6/landmarks.json",
+    "type": "community_open_data",
+    "note": "Downloaded snapshot included unchanged.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gtadb_tiles",
+    "title": "GTADB GTA VI map tiles",
+    "url": "https://github.com/rolux/gtadb.org/tree/main/maps/tiles/6",
+    "type": "community_open_data",
+    "note": "Multiple community basemaps, including YANIS v16.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gtadb_api",
+    "title": "GTADB experimental APIs",
+    "url": "https://api.gtadb.org",
+    "type": "community_documentation",
+    "note": "Geocoding, landmarks, elevation and static maps. Route and Maps JavaScript APIs marked coming soon.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "state_leonida",
+    "title": "State of Leonida map",
+    "url": "https://map.stateofleonida.net",
+    "type": "community",
+    "note": "Independent interactive mapping project; positions are estimates.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gtami",
+    "title": "GTAMI evidence map",
+    "url": "https://gtami.com/en/map/",
+    "type": "community",
+    "note": "Search-indexed evidence cards and YANIS v16 attribution; direct open was unavailable during research.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gtabase_map",
+    "title": "GTA Base interactive map",
+    "url": "https://www.gtabase.com/gta-6/map/",
+    "type": "community",
+    "note": "Map and tracker reference.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gtabase_locations",
+    "title": "GTA Base location guide",
+    "url": "https://www.gtabase.com/gta-6/map-locations/",
+    "type": "community",
+    "note": "Secondary location catalog; check individual provenance.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gtabase_vehicles",
+    "title": "GTA Base vehicle catalog",
+    "url": "https://www.gtabase.com/gta-6/vehicles/",
+    "type": "community",
+    "note": "Site lists 298 vehicles as of this check; not an official total.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gtabase_weapons",
+    "title": "GTA Base weapons catalog",
+    "url": "https://www.gtabase.com/gta-6/weapons/",
+    "type": "community_mixed_evidence",
+    "note": "Explicitly mixes official media and leaked development footage.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gi_issue",
+    "title": "Game Informer issue 382",
+    "url": "https://gameinformer.com/GTAVI",
+    "type": "first_hand_reporting",
+    "note": "Developer interviews and feature index.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gi_feature",
+    "title": "Welcome to Leonida",
+    "url": "https://gameinformer.com/feature/2026/09/29/grand-theft-auto-vi-welcome-to-leonida",
+    "type": "first_hand_reporting",
+    "note": "Full cover story is subscriber-only; not fully read.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gi_wildlife",
+    "title": "Over 170 animal species",
+    "url": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-includes-over-170-animal-species",
+    "type": "first_hand_reporting",
+    "note": "Open article based on developer interview.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "gi_weather",
+    "title": "Tropical storms and hurricanes",
+    "url": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-features-tropical-storms-and-hurricanes",
+    "type": "first_hand_reporting",
+    "note": "Open article based on developer interview.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "pcg_showcase",
+    "title": "PC Gamer Extended Look coverage",
+    "url": "https://www.pcgamer.com/news/live/grand-theft-auto-6-reveal-live-coverage-breaking-down-the-netflix-extended-look-event/",
+    "type": "secondary_observation",
+    "note": "Official showcase observations and a separate leaks section; do not merge them.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "rp_policy",
+    "title": "Rockstar RP policy",
+    "url": "https://support.rockstargames.com/articles/5I66kExWgligszgMCU3XC1/roleplay-rp-servers",
+    "type": "official_policy",
+    "note": "General Creator Platform policy is not GTA VI integration documentation.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "cc_by",
+    "title": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "type": "license",
+    "note": "Attribution and change-notice requirements.",
+    "checked_on": "2026-10-09"
+  }
+]

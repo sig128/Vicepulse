@@ -1,0 +1,264 @@
+{
+  "generatedAt": "2026-10-09T21:14:51.555Z",
+  "transform": "overviewX = (x + 16384) / 16 - 256 ; overviewY = (16384 - y) / 16 - 256",
+  "controlPoints": [
+    {
+      "id": "L588",
+      "expect": "land",
+      "why": "Primary fixture, La Perle (Vice City)",
+      "label": "?, La Perle, Vice City",
+      "game": [
+        -735,
+        1493
+      ],
+      "overviewPx": [
+        722.0625,
+        674.6875
+      ],
+      "observed": "land",
+      "pass": true
+    },
+    {
+      "id": "L689",
+      "expect": "land",
+      "why": "Container crane, Port Vice City (east)",
+      "label": "Container Crane #9, Port Vice City",
+      "game": [
+        1049.127834463002,
+        -240.1966882797485
+      ],
+      "overviewPx": [
+        833.5704896539376,
+        783.0122930174844
+      ],
+      "observed": "land",
+      "pass": true
+    },
+    {
+      "id": "L13",
+      "expect": "land",
+      "why": "Hotel, Washington Beach (far east barrier island)",
+      "label": "Albany Hotel, Washington Beach, Vice Beach",
+      "game": [
+        1964.5619088542499,
+        1815.009612002924
+      ],
+      "overviewPx": [
+        890.7851193033907,
+        654.5618992498172
+      ],
+      "observed": "land",
+      "pass": true
+    },
+    {
+      "id": "L281",
+      "expect": "land",
+      "why": "Raceway, Port Gellhorn (west)",
+      "label": "Gellhorn International Raceway, Port Gellhorn",
+      "game": [
+        -6752.3096199241645,
+        2298.4453173486972
+      ],
+      "overviewPx": [
+        345.9806487547397,
+        624.3471676657064
+      ],
+      "observed": "land",
+      "pass": true
+    },
+    {
+      "id": "L399",
+      "expect": "land",
+      "why": "Sugar mill, Ambrosia (centre-north)",
+      "label": "Sugar Mill, Allied Crystal, Ambrosia",
+      "game": [
+        -3016.5107043822245,
+        3346.662355484881
+      ],
+      "overviewPx": [
+        579.468080976111,
+        558.8336027821949
+      ],
+      "observed": "land",
+      "pass": true
+    },
+    {
+      "id": "L530",
+      "expect": "land",
+      "why": "Mount Kalaga (north interior)",
+      "label": "Mount Kalaga, Lummox County",
+      "game": [
+        -3430.4825,
+        6370.646000000001
+      ],
+      "overviewPx": [
+        553.59484375,
+        369.83462499999996
+      ],
+      "observed": "land",
+      "pass": true
+    },
+    {
+      "id": "L625",
+      "expect": "near_land",
+      "why": "Visitor centre, Grassrivers marsh (south-centre). YANIS draws the marsh in water tones; land sliver within 2 px",
+      "label": "Grassrivers Visitor Center, Mariana County",
+      "game": [
+        -2665.099562353465,
+        -4761.171979994064
+      ],
+      "overviewPx": [
+        601.4312773529084,
+        1065.5732487496289
+      ],
+      "observed": "near_land",
+      "pass": true
+    },
+    {
+      "id": "L273",
+      "expect": "land",
+      "why": "Radar station, Leonida Keys (south)",
+      "label": "Air Force Radar Station, Mariana County",
+      "game": [
+        -4311.869000000001,
+        -6810.052
+      ],
+      "overviewPx": [
+        498.50818749999996,
+        1193.62825
+      ],
+      "observed": "land",
+      "pass": true
+    },
+    {
+      "id": "L1560",
+      "expect": "land",
+      "why": "Airfield, Lummox County (far north)",
+      "label": "Airfield, Lummox County",
+      "game": [
+        -3606.7108220823084,
+        7822.940698334334
+      ],
+      "overviewPx": [
+        542.5805736198557,
+        279.0662063541041
+      ],
+      "observed": "land",
+      "pass": true
+    },
+    {
+      "id": "L1556",
+      "expect": "water",
+      "why": "Negative control: 'Gulf of Leonida' label",
+      "label": "Gulf of Leonida",
+      "game": [
+        -9832.096534490327,
+        1219.0925352194945
+      ],
+      "overviewPx": [
+        153.49396659435456,
+        691.8067165487817
+      ],
+      "observed": "water",
+      "pass": true
+    }
+  ],
+  "landFractionAllPins": {
+    "atTransform": 0.9193064354784928,
+    "best": {
+      "dx": 0,
+      "dy": 0,
+      "landFraction": 0.9193064354784928
+    },
+    "flippedY": 0.6872290763587863,
+    "swappedAxes": 0.5288429476492164,
+    "offsets": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "landFraction": 0.9193064354784928
+      },
+      {
+        "dx": 0,
+        "dy": -3,
+        "landFraction": 0.9099699899966656
+      },
+      {
+        "dx": -3,
+        "dy": 0,
+        "landFraction": 0.8999666555518506
+      },
+      {
+        "dx": 0,
+        "dy": 3,
+        "landFraction": 0.8909636545515172
+      },
+      {
+        "dx": 3,
+        "dy": 0,
+        "landFraction": 0.8886295431810604
+      },
+      {
+        "dx": 0,
+        "dy": -6,
+        "landFraction": 0.8749583194398133
+      },
+      {
+        "dx": 0,
+        "dy": 6,
+        "landFraction": 0.8662887629209737
+      },
+      {
+        "dx": -6,
+        "dy": 0,
+        "landFraction": 0.8619539846615538
+      },
+      {
+        "dx": 6,
+        "dy": 0,
+        "landFraction": 0.8579526508836278
+      },
+      {
+        "dx": 0,
+        "dy": -12,
+        "landFraction": 0.8232744248082694
+      },
+      {
+        "dx": 0,
+        "dy": 12,
+        "landFraction": 0.8229409803267755
+      },
+      {
+        "dx": 12,
+        "dy": 0,
+        "landFraction": 0.808269423141047
+      },
+      {
+        "dx": -12,
+        "dy": 0,
+        "landFraction": 0.796598866288763
+      },
+      {
+        "dx": 0,
+        "dy": -24,
+        "landFraction": 0.7702567522507503
+      },
+      {
+        "dx": 0,
+        "dy": 24,
+        "landFraction": 0.7542514171390463
+      },
+      {
+        "dx": -24,
+        "dy": 0,
+        "landFraction": 0.7402467489163055
+      },
+      {
+        "dx": 24,
+        "dy": 0,
+        "landFraction": 0.6855618539513171
+      }
+    ]
+  },
+  "note": "A numeric round trip does not prove alignment; these checks sample the actual raster. Pins at 16 units/px are tested on the exact pixel (no neighbourhood) for the statistical run."
+}

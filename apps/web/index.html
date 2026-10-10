@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" class="booting">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#100B1B" />
+    <meta name="description" content="VICEPULSE — an unofficial, community-sourced GTA VI atlas and a living-city mission network. Not affiliated with Rockstar Games." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>VICEPULSE — community atlas</title>
+    <!-- Entrance frame + overlay are inlined so the very first paint (before JS/CSS bundles) is the framed loader.
+         ui/Entrance.tsx renders identical overlay markup and drives the html.booting → html.revealing → (none) classes. -->
+    <style>
+      :root { --frame-gap: 24px; --frame-radius: 56px; }
+      @media (max-width: 760px) { :root { --frame-gap: 10px; --frame-radius: 28px; } }
+      html { background: #100B1B; }
+      html.booting, html.revealing { background: #F5EFE6; }
+      html, body { margin: 0; }
+      body { overflow-x: hidden; }
+      /* Full-bleed at all times: the frame is only a clip, so the map canvas never resizes during the reveal. */
+      .app { position: relative; width: 100%; height: 100vh; height: 100dvh; min-height: 480px; overflow: hidden; isolation: isolate; z-index: 1; background: #100B1B; }
+      html.booting .app { clip-path: inset(var(--frame-gap) round var(--frame-radius)); }
+      html.revealing .app { clip-path: inset(0px round 0px); transition: clip-path 600ms cubic-bezier(0.65, 0, 0.35, 1); }
+
+      .entrance {
+        --wm-size: clamp(36px, 5vw + 16px, 72px);
+        position: absolute; inset: 0; z-index: 100; color: #FFF8F2; font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: radial-gradient(70% 60% at 50% 50%, #21143a 0%, #140d24 55%, #100B1B 100%);
+        opacity: 1; transition: opacity 400ms cubic-bezier(0.2, 0.7, 0.2, 1);
+      }
+      .entrance.leaving { opacity: 0; pointer-events: none; }
+      .entrance .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+      /* Hidden (not removed) until fonts settle, so the Anton → Pricedown swap never shows; the overlay itself never reflows.
+         text-indent balances the trailing letter-spacing so the glyphs, not the advance box, are centred. */
+      .entrance .wm {
+        position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); margin: 0;
+        font-family: "Pricedown", "Anton", Impact, sans-serif; font-weight: 400; font-synthesis: none; font-size: var(--wm-size); line-height: 1; letter-spacing: 0.01em; text-indent: 0.01em; white-space: nowrap;
+        color: #FFF8F2; text-shadow: 0 0 0.16em rgba(249, 118, 176, 0.32), 0 0 0.03em rgba(122, 63, 209, 0.7);
+        opacity: 0; transition: opacity 220ms ease-out;
+      }
+      html[data-brand-font="fallback"] .entrance .wm { letter-spacing: 0.035em; text-indent: 0.035em; }
+      html.vp-fonts .entrance .wm { opacity: 1; }
+      /* Shimmer: same glyphs on top, gradient clipped to the letters. No shadow/filter here, or the clip box would show. */
+      .entrance .wm::after {
+        content: attr(data-text); position: absolute; inset: 0; text-indent: inherit; color: transparent; text-shadow: none;
+        background: linear-gradient(100deg, transparent 0 44%, rgba(249, 118, 176, 0.55) 47%, #fff 50%, rgba(177, 161, 232, 0.7) 53%, transparent 56% 100%);
+        background-size: 300% 100%; background-repeat: no-repeat; background-position: 100% 0;
+        -webkit-background-clip: text; background-clip: text;
+        animation: vp-shimmer 2.4s ease-in-out infinite; animation-delay: var(--shimmer-delay, 0ms);
+      }
+      @keyframes vp-shimmer { 0% { background-position: 100% 0; } 70%, 100% { background-position: 0% 0; } }
+      .entrance.halted .wm::after, .reduce-motion .entrance .wm::after { animation: none; display: none; }
+      @media (prefers-reduced-motion: reduce) { .entrance .wm::after { animation: none; display: none; } .entrance { transition-duration: 1ms; } }
+    </style>
+    <script>
+      // Safety cap: show the boot wordmark even if the app bundle never reports font readiness.
+      setTimeout(function () { document.documentElement.classList.add("vp-fonts"); }, 1500);
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <div class="app">
+        <div class="entrance" role="status" aria-live="polite">
+          <span class="vh">Loading VICEPULSE</span>
+          <p class="wm" data-text="VICEPULSE" aria-hidden="true">VICEPULSE</p>
+        </div>
+      </div>
+    </div>
+    <noscript>VICEPULSE needs JavaScript to render the map.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

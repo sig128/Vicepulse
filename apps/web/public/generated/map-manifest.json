@@ -1,0 +1,816 @@
+{
+  "renderedBasemap": {
+    "id": "gtadb:yanis,16",
+    "tileSet": "yanis,16",
+    "upstreamDirectoryLabel": "yanis,16",
+    "artworkLabel": "V17 (WIP)",
+    "labelMismatch": "Repository directory says yanis,16; the artwork legend says V17 (WIP). Both values preserved.",
+    "repo": "https://github.com/rolux/gtadb.org",
+    "commit": "76d44848850222ab5051bc8f561316989b5c3570",
+    "commitNote": "Bundled overview's own acquisition commit is unknown; tiles fetched by this script come from the commit above.",
+    "license": "CC BY 4.0 — GTA VI Map Tiles — https://map.gtadb.org; YANIS / GTA VI Mapping Community; gtadb.org and all contributors",
+    "changes": "36 zoom-1 tiles stitched to a 1536 px overview (research pack); display crop excludes the legend column; Afterdark mode applies a colour treatment in-shader. No geometry edited.",
+    "transform": {
+      "formula": "globalPixel = (x + 16384, 16384 - y) * 1024 * 2^z / 32768",
+      "mapW": 32768,
+      "mapH": 32768,
+      "zeroX": 16384,
+      "zeroY": 16384,
+      "tileSize": 256,
+      "tileRanges": {
+        "0": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "1": [
+          [
+            1,
+            1
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "2": [
+          [
+            2,
+            2
+          ],
+          [
+            12,
+            12
+          ]
+        ],
+        "3": [
+          [
+            5,
+            5
+          ],
+          [
+            25,
+            24
+          ]
+        ],
+        "4": [
+          [
+            10,
+            10
+          ],
+          [
+            51,
+            49
+          ]
+        ],
+        "5": [
+          [
+            21,
+            21
+          ],
+          [
+            103,
+            99
+          ]
+        ],
+        "6": [
+          [
+            42,
+            42
+          ],
+          [
+            206,
+            198
+          ]
+        ]
+      }
+    },
+    "overview": {
+      "file": "research/community-data/YANIS-community-map.png",
+      "sha256": "588f5d7cccb6ec06c5237e54fe9847584659137f5c6035600be932c7b52f2761",
+      "id": "gtadb:yanis,16:z1",
+      "tileSet": "yanis,16",
+      "zoom": 1,
+      "tileOrigin": [
+        1,
+        1
+      ],
+      "originX": -12288,
+      "originY": 12288,
+      "unitsPerPixel": 16,
+      "width": 1536,
+      "height": 1536,
+      "crop": {
+        "x": 0,
+        "y": 32,
+        "width": 1008,
+        "height": 1376
+      }
+    },
+    "legendClip": {
+      "minX": 3904,
+      "maxY": 16384,
+      "minY": -9056
+    },
+    "tileInventory": {
+      "0": {
+        "expected": 16,
+        "legendOnly": 3,
+        "cached": 0
+      },
+      "1": {
+        "expected": 36,
+        "legendOnly": 10,
+        "cached": 26
+      },
+      "2": {
+        "expected": 121,
+        "legendOnly": 30,
+        "cached": 91
+      },
+      "3": {
+        "expected": 420,
+        "legendOnly": 114,
+        "cached": 306
+      },
+      "4": {
+        "expected": 1680,
+        "legendOnly": 468,
+        "cached": 1211
+      },
+      "5": {
+        "expected": 6557,
+        "legendOnly": 1872,
+        "cached": 0
+      },
+      "6": {
+        "expected": 25905,
+        "legendOnly": 7488,
+        "cached": 0
+      }
+    }
+  },
+  "primaryReference": {
+    "site": "https://map.stateofleonida.net/?marker=L588",
+    "activeRevision": {
+      "layer": "YANIS",
+      "version": "v16.0",
+      "date": "2026-09-20"
+    },
+    "note": "Primary reference revision as configured by the source at inspection. Its tiles are not redistributed by this project."
+  },
+  "registrationAgainstPrimary": {
+    "method": "scripts/compare-registration.ts",
+    "result": {
+      "dx": 0,
+      "dy": 0,
+      "meanAbsLumaDiff": 12.32675256065224
+    },
+    "resolutionGameUnits": 16,
+    "interpretation": "Predicted transforms align at 1 px (16 game units) resolution; remaining difference is artwork/revision content, see diff image.",
+    "contentDifferences": "Coastline and road geometry co-register; road styling, labels, legend placement (left in SoL v16.0, right in GTADB V17 WIP) and the Leonida Keys airfield differ. Treat as different artwork revisions in the same frame.",
+    "artifacts": [
+      "docs/validation/registration-blend-sol-v16-vs-gtadb-yanis16.png",
+      "docs/validation/registration-diff-sol-v16-vs-gtadb-yanis16.png",
+      "docs/validation/registration-side-by-side.png"
+    ]
+  },
+  "sourceLayers": {
+    "YANIS": {
+      "layer": "YANIS",
+      "currentVersion": "v16.0",
+      "maxNativeZoom": 6,
+      "maxZoom": 8,
+      "versions": [
+        {
+          "id": "v7.0",
+          "name": "V 7.0",
+          "date": "2025-08-11",
+          "originalSize": {
+            "width": 20000,
+            "height": 20000
+          },
+          "bounds": [
+            [
+              -7882,
+              -16340
+            ],
+            [
+              12170,
+              3659
+            ]
+          ],
+          "variants": [
+            "normal"
+          ],
+          "nativeTransform": null,
+          "transformError": "Error: SoL v7.0: non-uniform units per pixel (0.99995 vs 1.0026)",
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        },
+        {
+          "id": "v8.0",
+          "name": "V 8.0",
+          "date": "2025-09-12",
+          "originalSize": {
+            "width": 20000,
+            "height": 20000
+          },
+          "bounds": [
+            [
+              -8000,
+              -16500
+            ],
+            [
+              12000,
+              3500
+            ]
+          ],
+          "variants": [
+            "normal",
+            "dark"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v8.0:z6",
+            "originX": -16500,
+            "originY": 12000,
+            "unitsPerPixel": 1,
+            "width": 20000,
+            "height": 20000
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        },
+        {
+          "id": "v9.0",
+          "name": "V 9.0",
+          "date": "2025-11-15",
+          "originalSize": {
+            "width": 20000,
+            "height": 20000
+          },
+          "bounds": [
+            [
+              -8000,
+              -16500
+            ],
+            [
+              12000,
+              3500
+            ]
+          ],
+          "variants": [
+            "normal",
+            "dark"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v9.0:z6",
+            "originX": -16500,
+            "originY": 12000,
+            "unitsPerPixel": 1,
+            "width": 20000,
+            "height": 20000
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        },
+        {
+          "id": "v10.0",
+          "name": "v10.0",
+          "date": "2026-01-03",
+          "originalSize": {
+            "width": 20000,
+            "height": 20000
+          },
+          "bounds": [
+            [
+              -8000,
+              -16500
+            ],
+            [
+              12000,
+              3500
+            ]
+          ],
+          "variants": [
+            "normal",
+            "dark",
+            "nocams",
+            "nocams-dark"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v10.0:z6",
+            "originX": -16500,
+            "originY": 12000,
+            "unitsPerPixel": 1,
+            "width": 20000,
+            "height": 20000
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        },
+        {
+          "id": "v11.0",
+          "name": "v11.0",
+          "date": "2026-04-02",
+          "originalSize": {
+            "width": 20000,
+            "height": 20000
+          },
+          "bounds": [
+            [
+              -8000,
+              -16500
+            ],
+            [
+              12000,
+              3500
+            ]
+          ],
+          "variants": [
+            "normal",
+            "dark",
+            "nocams",
+            "nocams-dark"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v11.0:z6",
+            "originX": -16500,
+            "originY": 12000,
+            "unitsPerPixel": 1,
+            "width": 20000,
+            "height": 20000
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        },
+        {
+          "id": "v12.0",
+          "name": "v12.0",
+          "date": "2026-05-11",
+          "originalSize": {
+            "width": 20000,
+            "height": 20000
+          },
+          "bounds": [
+            [
+              -8000,
+              -16500
+            ],
+            [
+              12000,
+              3500
+            ]
+          ],
+          "variants": [
+            "normal",
+            "dark",
+            "nocams",
+            "nocams-dark"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v12.0:z6",
+            "originX": -16500,
+            "originY": 12000,
+            "unitsPerPixel": 1,
+            "width": 20000,
+            "height": 20000
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        },
+        {
+          "id": "v13.0",
+          "name": "v13.0",
+          "date": "2026-06-24",
+          "originalSize": {
+            "width": 20000,
+            "height": 20000
+          },
+          "bounds": [
+            [
+              -8000,
+              -16500
+            ],
+            [
+              12000,
+              3500
+            ]
+          ],
+          "variants": [
+            "normal",
+            "dark",
+            "nocams",
+            "nocams-dark"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v13.0:z6",
+            "originX": -16500,
+            "originY": 12000,
+            "unitsPerPixel": 1,
+            "width": 20000,
+            "height": 20000
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        },
+        {
+          "id": "v14.0",
+          "name": "v14.0",
+          "date": "2026-08-04",
+          "originalSize": {
+            "width": 20000,
+            "height": 20000
+          },
+          "bounds": [
+            [
+              -8000,
+              -16500
+            ],
+            [
+              12000,
+              3500
+            ]
+          ],
+          "variants": [
+            "normal",
+            "dark",
+            "nocams",
+            "nocams-dark"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v14.0:z6",
+            "originX": -16500,
+            "originY": 12000,
+            "unitsPerPixel": 1,
+            "width": 20000,
+            "height": 20000
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        },
+        {
+          "id": "v15.0",
+          "name": "v15.0",
+          "date": "2026-08-23",
+          "originalSize": {
+            "width": 20000,
+            "height": 20000
+          },
+          "bounds": [
+            [
+              -8000,
+              -16500
+            ],
+            [
+              12000,
+              3500
+            ]
+          ],
+          "variants": [
+            "normal",
+            "dark",
+            "nocams",
+            "nocams-dark"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v15.0:z6",
+            "originX": -16500,
+            "originY": 12000,
+            "unitsPerPixel": 1,
+            "width": 20000,
+            "height": 20000
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        },
+        {
+          "id": "v16.0",
+          "name": "v16.0",
+          "date": "2026-09-20",
+          "originalSize": {
+            "width": 21000,
+            "height": 20000
+          },
+          "bounds": [
+            [
+              -9000,
+              -17000
+            ],
+            [
+              11000,
+              4000
+            ]
+          ],
+          "variants": [
+            "normal",
+            "dark",
+            "nocams",
+            "nocams-dark"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v16.0:z6",
+            "originX": -17000,
+            "originY": 11000,
+            "unitsPerPixel": 1,
+            "width": 21000,
+            "height": 20000
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        }
+      ]
+    },
+    "RickRick": {
+      "layer": "RickRick",
+      "currentVersion": "v3",
+      "maxNativeZoom": 6,
+      "maxZoom": 8,
+      "versions": [
+        {
+          "id": "v1",
+          "name": "V1",
+          "date": "2025-03-02",
+          "originalSize": {
+            "width": 11250,
+            "height": 13750
+          },
+          "bounds": [
+            [
+              -2500,
+              -2000
+            ],
+            [
+              3000,
+              2500
+            ]
+          ],
+          "variants": [
+            "normal"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v1:z6",
+            "originX": -2000,
+            "originY": 3000,
+            "unitsPerPixel": 0.4,
+            "width": 11250,
+            "height": 13750
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        },
+        {
+          "id": "v2",
+          "name": "V2",
+          "date": "2025-05-26",
+          "originalSize": {
+            "width": 11250,
+            "height": 13750
+          },
+          "bounds": [
+            [
+              -2500,
+              -2000
+            ],
+            [
+              3000,
+              2500
+            ]
+          ],
+          "variants": [
+            "normal"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v2:z6",
+            "originX": -2000,
+            "originY": 3000,
+            "unitsPerPixel": 0.4,
+            "width": 11250,
+            "height": 13750
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        },
+        {
+          "id": "v3",
+          "name": "V3",
+          "date": "2025-10-31",
+          "originalSize": {
+            "width": 16250,
+            "height": 17500
+          },
+          "bounds": [
+            [
+              -4000,
+              -4000
+            ],
+            [
+              3000,
+              2500
+            ]
+          ],
+          "variants": [
+            "normal"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v3:z6",
+            "originX": -4000,
+            "originY": 3000,
+            "unitsPerPixel": 0.4,
+            "width": 16250,
+            "height": 17500
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        }
+      ]
+    },
+    "DuPz0r": {
+      "layer": "DuPz0r",
+      "currentVersion": "v8.0",
+      "maxNativeZoom": 6,
+      "maxZoom": 8,
+      "versions": [
+        {
+          "id": "v8.0",
+          "name": "v0.008",
+          "date": "2022-09-21",
+          "originalSize": {
+            "width": 20000,
+            "height": 20000
+          },
+          "bounds": [
+            [
+              -7000,
+              -7000
+            ],
+            [
+              7000,
+              7000
+            ]
+          ],
+          "variants": [
+            "normal"
+          ],
+          "nativeTransform": {
+            "id": "stateofleonida:v8.0:z6",
+            "originX": -7000,
+            "originY": 7000,
+            "unitsPerPixel": 0.7,
+            "width": 20000,
+            "height": 20000
+          },
+          "transformError": null,
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        },
+        {
+          "id": "v8.0",
+          "name": "v0.008",
+          "date": "2022-09-21",
+          "originalSize": {
+            "width": 20000,
+            "height": 19842
+          },
+          "bounds": [
+            [
+              -7000,
+              -7000
+            ],
+            [
+              7000,
+              7000
+            ]
+          ],
+          "variants": [
+            "normal"
+          ],
+          "nativeTransform": null,
+          "transformError": "Error: SoL v8.0: non-uniform units per pixel (0.7 vs 0.7055740348755166)",
+          "assetStatus": "linked",
+          "assetNote": "Tiles hosted by State of Leonida; redistribution rights not established. Compared locally only."
+        }
+      ],
+      "note": "Source config lists two entries with the same id v8.0 and different originalSize; preserved as published."
+    }
+  },
+  "historicalComparisons": [
+    {
+      "id": "gta5",
+      "name": "GTA V",
+      "bounds": [
+        [
+          -3600.698,
+          -5000
+        ],
+        [
+          7679.719,
+          5000
+        ]
+      ],
+      "defaultOpacity": 0.7,
+      "sourceAsset": "assets/maps/GTAV.svg",
+      "scaleAssumption": "Bounds as configured by the source client, in GTA VI game units; equal-scale alignment between different games is the source's assumption, not a measured fact.",
+      "assetStatus": "pending_permission",
+      "localSlot": "apps/web/public/assets/maps/compare/gta5.(png|svg)",
+      "localAvailable": false
+    },
+    {
+      "id": "gta4",
+      "name": "GTA IV",
+      "bounds": [
+        [
+          -2500,
+          -5000
+        ],
+        [
+          3500,
+          5000
+        ]
+      ],
+      "defaultOpacity": 0.7,
+      "sourceAsset": "assets/maps/GTAIV.svg",
+      "scaleAssumption": "Bounds as configured by the source client, in GTA VI game units; equal-scale alignment between different games is the source's assumption, not a measured fact.",
+      "assetStatus": "pending_permission",
+      "localSlot": "apps/web/public/assets/maps/compare/gta4.(png|svg)",
+      "localAvailable": false
+    },
+    {
+      "id": "vicecity",
+      "name": "Vice City",
+      "bounds": [
+        [
+          -1185,
+          -1185
+        ],
+        [
+          1185,
+          1185
+        ]
+      ],
+      "defaultOpacity": 0.7,
+      "sourceAsset": "assets/maps/gtavc.png",
+      "scaleAssumption": "Bounds as configured by the source client, in GTA VI game units; equal-scale alignment between different games is the source's assumption, not a measured fact.",
+      "assetStatus": "pending_permission",
+      "localSlot": "apps/web/public/assets/maps/compare/vicecity.(png|svg)",
+      "localAvailable": false
+    },
+    {
+      "id": "sanandreas",
+      "name": "San Andreas",
+      "bounds": [
+        [
+          -3000,
+          -3000
+        ],
+        [
+          3000,
+          3000
+        ]
+      ],
+      "defaultOpacity": 0.7,
+      "sourceAsset": "assets/maps/GTAsa.svg",
+      "scaleAssumption": "Bounds as configured by the source client, in GTA VI game units; equal-scale alignment between different games is the source's assumption, not a measured fact.",
+      "assetStatus": "pending_permission",
+      "localSlot": "apps/web/public/assets/maps/compare/sanandreas.(png|svg)",
+      "localAvailable": false
+    },
+    {
+      "id": "rdr2",
+      "name": "Red Dead Redemption 2",
+      "bounds": [
+        [
+          -3100,
+          -5900
+        ],
+        [
+          5300,
+          4400
+        ]
+      ],
+      "defaultOpacity": 0.7,
+      "sourceAsset": "assets/maps/rdr2.png",
+      "scaleAssumption": "Bounds as configured by the source client, in GTA VI game units; equal-scale alignment between different games is the source's assumption, not a measured fact.",
+      "assetStatus": "pending_permission",
+      "localSlot": "apps/web/public/assets/maps/compare/rdr2.(png|svg)",
+      "localAvailable": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "updated": "2026-10-09",
+  "areas": [
+    { "area": "Basemaps", "status": "partial", "notes": "GTADB yanis,16 (artwork V17 WIP) rendered with tile LOD z1-z6. Source YANIS v7.0-v16.0, RickRick v1-v3, DuPz0r revision metadata, dates, variants (normal/dark/nocams) listed in the revision selector; SoL-hosted tiles are linked, not redistributed. v16.0 registration compared (0 px residual at 16 u/px)." },
+    { "area": "Historical comparison", "status": "partial", "notes": "GTA V, GTA IV, Vice City, San Andreas, RDR2 slots with source bounds, opacity, registered placement and scale-assumption note. Assets pending permission; owner can drop files in apps/web/public/assets/maps/compare/." },
+    { "area": "Markers", "status": "implemented", "notes": "3,100 GTADB + 182 SoL records with stable IDs, categories, uncertainty punctuation, tags, coordinates, credits, raw edited values, reference links and media relations." },
+    { "area": "Marker browser", "status": "implemented", "notes": "Search, dataset/category toggles, sort, counts, clustering, compact/normal density, selection, focus, durable ?marker= links." },
+    { "area": "Detail windows", "status": "implemented", "notes": "Game photo / real-world photo (GTADB, cached), source media links, real-life address, game XY, tags, edited raw + interpreted, lightbox, copy link/coords, Google Earth and GTA Wiki search links." },
+    { "area": "Spatial inspection", "status": "implemented", "notes": "Cursor coordinate readout, coordinate search, grid, km/mi measurement, source-supplied FOV wedges (absent angles stay unknown)." },
+    { "area": "Drawing", "status": "implemented", "notes": "Pen, line, rectangle, circle, palette + custom colour, thickness, opacity, undo/redo/clear, saved per guest session in game coordinates." },
+    { "area": "Analytical layers", "status": "implemented", "notes": "Clustering toggle and radius, cluster/marker colours, marker-density heatmap labelled as marker density." },
+    { "area": "Real-world comparison", "status": "implemented", "notes": "Separate OpenStreetMap view in lat/lon with OSM attribution; never mixed with game XY." },
+    { "area": "Media library", "status": "partial", "notes": "Marker-linked screenshots/trailers/leaks with search, categories, go-to-location and source links. Thumbnails are opt-in source links. Source media tab totals pending (robots-disallowed endpoint)." },
+    { "area": "Marker Finder", "status": "implemented", "notes": "Original screenshot-to-map game, server-held answers, distance scoring, 5 rounds, results and our own leaderboard. Points capped; not an unlimited reward source." },
+    { "area": "Customization", "status": "implemented", "notes": "Dark themes, glass/border options, accent colour, original gradient backgrounds, rail arrangement, metric/imperial, English/German." },
+    { "area": "Provenance", "status": "implemented", "notes": "Database overview, reconciliation, update status, source change history, creator credits, map revision history, public adaptations list." },
+    { "area": "Community Hub", "status": "not_applicable", "notes": "Source shows 'Coming soon'. VICEPULSE ships its own live feed/mission hub instead." }
+  ],
+  "discovered": [
+    { "name": "Camera motion playback (heading, FOV, path, video sync in/out)", "status": "partial: static FOV + path drawn; video sync not reproduced" },
+    { "name": "No-cams tile variants", "status": "listed in revision selector" },
+    { "name": "Per-tag image visibility rules (showInGame/showRealLife)", "status": "not reproduced: rules are server-side" },
+    { "name": "News articles (data/news.json)", "status": "linked count in Sources" },
+    { "name": "Supporters list", "status": "not reproduced (donation-related)" },
+    { "name": "GTA Wiki lookup cache", "status": "replaced by search link" },
+    { "name": "OSM real-life map mode", "status": "implemented as Real-world view" },
+    { "name": "Accounts, ranks, notifications, marker studio", "status": "own guest sessions; source accounts not copied" }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "as_of": "2026-10-09",
+  "scope": "Project research snapshot, not an exhaustive game database or final game specification.",
+  "release": {
+    "scheduled_date": "2026-11-19",
+    "platforms": [
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "digital_preload": "2026-11-12",
+    "launch_description": "Single-player",
+    "us_price_usd": {
+      "standard": 79.99,
+      "ultimate": 99.99
+    },
+    "source_ids": [
+      "official_home",
+      "preorders",
+      "take_two_preorders"
+    ]
+  },
+  "regions": [
+    {
+      "name": "Vice City",
+      "existence_status": "official",
+      "coordinates": null,
+      "coordinate_status": "not_established_in_this_pack",
+      "source_ids": [
+        "official_people",
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "Leonida Keys",
+      "existence_status": "official",
+      "coordinates": null,
+      "coordinate_status": "not_established_in_this_pack",
+      "source_ids": [
+        "official_people",
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "Grassrivers",
+      "existence_status": "official",
+      "coordinates": null,
+      "coordinate_status": "not_established_in_this_pack",
+      "source_ids": [
+        "official_people",
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "Port Gellhorn",
+      "existence_status": "official",
+      "coordinates": null,
+      "coordinate_status": "not_established_in_this_pack",
+      "source_ids": [
+        "official_people",
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "Ambrosia",
+      "existence_status": "official",
+      "coordinates": null,
+      "coordinate_status": "not_established_in_this_pack",
+      "source_ids": [
+        "official_people",
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "Mount Kalaga National Park",
+      "existence_status": "official",
+      "coordinates": null,
+      "coordinate_status": "not_established_in_this_pack",
+      "source_ids": [
+        "official_people",
+        "official_screenshots"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Jason Duval",
+      "status": "official",
+      "source_ids": [
+        "official_people"
+      ]
+    },
+    {
+      "name": "Lucia Caminos",
+      "status": "official",
+      "source_ids": [
+        "official_people"
+      ]
+    },
+    {
+      "name": "Cal Hampton",
+      "status": "official",
+      "source_ids": [
+        "official_people"
+      ]
+    },
+    {
+      "name": "Boobie Ike",
+      "status": "official",
+      "source_ids": [
+        "official_people"
+      ]
+    },
+    {
+      "name": "Dre’Quan Priest",
+      "status": "official",
+      "source_ids": [
+        "official_people"
+      ]
+    },
+    {
+      "name": "Bae-Luxe",
+      "status": "official",
+      "source_ids": [
+        "official_people"
+      ]
+    },
+    {
+      "name": "Roxy",
+      "status": "official",
+      "source_ids": [
+        "official_people"
+      ]
+    },
+    {
+      "name": "Raul Bautista",
+      "status": "official",
+      "source_ids": [
+        "official_people"
+      ]
+    },
+    {
+      "name": "Brian Heder",
+      "status": "official",
+      "source_ids": [
+        "official_people"
+      ]
+    }
+  ],
+  "character_note": "Bae-Luxe and Roxy form Real Dimez. These are featured characters, not a complete cast.",
+  "official_media_named_businesses": [
+    {
+      "name": "Rideout Customs",
+      "status": "official_media_label",
+      "coordinates": null,
+      "source_ids": [
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "Sara’s Unisex Salon",
+      "status": "official_media_label",
+      "coordinates": null,
+      "source_ids": [
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "Stock 305",
+      "status": "official_media_label",
+      "coordinates": null,
+      "source_ids": [
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "Electric Fang Tattoo",
+      "status": "official_media_label",
+      "coordinates": null,
+      "source_ids": [
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "One-Eyed Willie’s Mod Shop",
+      "status": "official_media_label",
+      "coordinates": null,
+      "source_ids": [
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "PTT YOUNGIN$",
+      "status": "official_media_label",
+      "coordinates": null,
+      "source_ids": [
+        "official_screenshots"
+      ]
+    }
+  ],
+  "official_media_named_items": [
+    {
+      "name": "’95 Grotti Cheetah",
+      "status": "official_media_label",
+      "source_ids": [
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "Dinka Enduro",
+      "status": "official_media_label",
+      "source_ids": [
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "Crest Kayak",
+      "status": "official_media_label",
+      "source_ids": [
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "Shitzu Squalo",
+      "status": "official_media_label",
+      "source_ids": [
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "’67 Vapid Dominator Buggy",
+      "status": "official_media_label",
+      "source_ids": [
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "’55 Vapid Stanier",
+      "status": "official_media_label",
+      "source_ids": [
+        "official_screenshots"
+      ]
+    },
+    {
+      "name": "Hawk & Little Morgan Revolvers",
+      "status": "official_media_label",
+      "source_ids": [
+        "official_screenshots"
+      ]
+    }
+  ],
+  "radio_previews": {
+    "stations": [
+      "Cocoteo",
+      "Back Country",
+      "Afro Bank FM",
+      "The Chamber",
+      "Flash FM",
+      "Dirty South Classics"
+    ],
+    "complete_station_list": false,
+    "source_ids": [
+      "music"
+    ]
+  },
+  "album": {
+    "original_tracks": 34,
+    "scheduled_date": "2026-11-19",
+    "source_ids": [
+      "music"
+    ]
+  },
+  "developer_interview_reports": [
+    {
+      "topic": "wildlife",
+      "summary": "More than 170 species; some special animals can be tracked.",
+      "source_ids": [
+        "gi_wildlife"
+      ],
+      "status": "first_hand_reporting"
+    },
+    {
+      "topic": "weather",
+      "summary": "Localized storms, residual wetness, tropical storms and hurricanes; gameplay impact not fully disclosed.",
+      "source_ids": [
+        "gi_weather"
+      ],
+      "status": "first_hand_reporting"
+    }
+  ],
+  "showcase_observations": {
+    "status": "secondary_observation_of_official_media",
+    "source_ids": [
+      "pcg_showcase",
+      "extended_look"
+    ],
+    "examples": [
+      "protagonist switching",
+      "shootouts and cover",
+      "car chases",
+      "disguises",
+      "basketball",
+      "scuba diving",
+      "fishing",
+      "jet skiing",
+      "kayaking",
+      "dirt bikes",
+      "parachuting",
+      "street racing"
+    ],
+    "limit": "A shown sequence does not prove a general mechanic or reveal all rules."
+  },
+  "not_verified_for_project_dependencies": [
+    "PC release date and specifications",
+    "official third-party GTA VI gameplay API or SDK",
+    "GTA VI RP/server/mod integration availability",
+    "complete final mission and collectible lists",
+    "final map coordinates, road network and area",
+    "full vehicle/weapon statistics",
+    "precise hurricane gameplay effects"
+  ],
+  "map_status": {
+    "usable_official_digital_road_map_found": false,
+    "physical_map_announced": true,
+    "source_ids": [
+      "collector_map"
+    ],
+    "note": "Official product preview shows poster artwork, not a readable road map. Community geometry remains estimated."
+  }
+}

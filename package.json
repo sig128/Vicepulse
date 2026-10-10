@@ -1,0 +1,45 @@
+{
+  "name": "vicepulse",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "VICEPULSE — GTA VI community atlas and living-city mission network (fan project, not affiliated with Rockstar Games).",
+  "packageManager": "pnpm@10.15.0",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "setup": "pnpm install && pnpm data:prepare && pnpm db:migrate",
+    "dev": "concurrently -k -n server,web -c magenta,cyan \"pnpm --filter @vicepulse/server dev\" \"pnpm --filter @vicepulse/web dev\"",
+    "build": "pnpm --filter @vicepulse/web build",
+    "start": "pnpm --filter @vicepulse/server start",
+    "typecheck": "pnpm -r typecheck",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "data:prepare": "tsx scripts/import-sources.ts && tsx scripts/prepare-map.ts && tsx scripts/verify-coverage.ts",
+    "data:import": "tsx scripts/import-sources.ts",
+    "data:fetch-sol": "tsx scripts/import-sources.ts --fetch-sol",
+    "map:prepare": "tsx scripts/prepare-map.ts",
+    "map:tiles": "tsx scripts/prepare-map.ts --download --max-zoom=3 --budget=600",
+    "map:tiles:full": "bash scripts/fetch-map-tiles.sh",
+    "map:compare": "tsx scripts/compare-registration.ts",
+    "coverage": "tsx scripts/verify-coverage.ts",
+    "db:migrate": "pnpm --filter @vicepulse/server migrate",
+    "db:seed": "pnpm --filter @vicepulse/server seed"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "@types/node": "26.6.5",
+    "concurrently": "10.0.6",
+    "sharp": "0.35.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "5.0.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp",
+      "esbuild"
+    ]
+  }
+}

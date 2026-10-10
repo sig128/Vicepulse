@@ -1,0 +1,28 @@
+{
+  "id": "your-stable-id",
+  "name": "Example location",
+  "category": "business",
+  "region_id": null,
+  "existence_status": "official|observed|community|unverified",
+  "placement_status": "official|community_estimate|unknown",
+  "coordinates": null,
+  "coordinate_system": null,
+  "map_version": null,
+  "evidence": [
+    {
+      "source_id": "source-catalog-id",
+      "url": "https://example.com/source",
+      "media_timestamp_seconds": null,
+      "screenshot_id": null,
+      "observation": "Describe only the evidence."
+    }
+  ],
+  "checked_on": "2026-10-09",
+  "spoiler_level": "none|world|story",
+  "rights": {
+    "owner": null,
+    "license_url": null,
+    "attribution": null
+  },
+  "notes": []
+}
