@@ -41,7 +41,7 @@ export async function buildApp(opts: { config?: Partial<Config>; settlementAdapt
     store, sim, hub, atlas: new Atlas(), upstream: new UpstreamCache(cfg.tileFetchOnDemand, cfg.tileFetchDailyBudget), narrative,
   };
 
-  const app = Fastify({ logger: opts.logger ?? false, bodyLimit: 256 * 1024, trustProxy: false });
+  const app = Fastify({ logger: opts.logger ?? false, bodyLimit: 256 * 1024, trustProxy: cfg.trustProxy });
   await app.register(cookie);
   await app.register(rateLimit, {
     max: 600, timeWindow: "1 minute",

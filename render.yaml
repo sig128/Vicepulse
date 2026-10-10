@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: vicepulse
+    runtime: node
+    plan: starter
+    region: frankfurt
+    branch: main
+    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm build
+    startCommand: pnpm start
+    healthCheckPath: /api/health
+    disk:
+      name: vicepulse-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: 22.22.0
+      - key: HOST
+        value: 0.0.0.0
+      - key: TRUST_PROXY
+        value: "true"
+      - key: DATABASE_PATH
+        value: /var/data/vicepulse.db
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: DEMO_CONTROLS
+        value: "false"
+      - key: NARRATIVE_PROVIDER
+        value: deterministic
+      - key: SETTLEMENT_ADAPTER
+        value: disabled
+      - key: TILE_FETCH_ON_DEMAND
+        value: "true"
+      - key: TILE_FETCH_DAILY_BUDGET
+        value: "800"

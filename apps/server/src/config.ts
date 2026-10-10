@@ -21,6 +21,8 @@ export interface Config {
   databasePath: string;
   sessionSecret: string;
   allowedOrigins: string[];
+  /** Only enable behind a proxy that overwrites X-Forwarded-For, or clients can spoof their IP. */
+  trustProxy: boolean;
   demoControls: boolean;
   worldSeed: string;
   production: boolean;
@@ -41,7 +43,8 @@ export function loadConfig(overrides: Partial<Config> = {}): Config {
     host: env("HOST", "127.0.0.1"),
     databasePath: path.resolve(ROOT, env("DATABASE_PATH", "apps/server/var/vicepulse.db")),
     sessionSecret: secret,
-    allowedOrigins: env("ALLOWED_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173,http://localhost:8787,http://127.0.0.1:8787").split(",").map((s) => s.trim()).filter(Boolean),
+    allowedOrigins: [...env("ALLOWED_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173,http://localhost:8787,http://127.0.0.1:8787").split(","), process.env.RENDER_EXTERNAL_URL ?? ""].map((s) => s.trim()).filter(Boolean),
+    trustProxy: env("TRUST_PROXY", "false") === "true",
     demoControls: env("DEMO_CONTROLS", production ? "false" : "true") === "true",
     worldSeed: env("WORLD_SEED", "night-shift-001"),
     production,
